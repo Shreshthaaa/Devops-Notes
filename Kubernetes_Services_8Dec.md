@@ -5,7 +5,7 @@ In Kubernetes, a **Service** is an abstraction that defines a logical set of Pod
 
 ## 1. Why We Need Services
 
-Pods are **ephemeral**—they are created and destroyed frequently. When a Pod is recreated, it receives a **new IP address**. Relying on these shifting IPs for communication is impossible.
+Pods are **ephemeral**, they are created and destroyed frequently. When a Pod is recreated, it receives a **new IP address**. Relying on these shifting IPs for communication is impossible.
 
 A Service provides:
 
